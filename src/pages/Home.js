@@ -1,6 +1,8 @@
 import React from "react";
 
+
 const Home = () => {
+  
   return (
     <main id="features" className="py-16 bg-yellow-100">
       <div className="container mx-auto px-2">
@@ -61,25 +63,14 @@ const Home = () => {
               </p>
             </div>
           </div>
-          <div
-            id="default-carousel"
-            className="relative w-full"
-            data-carousel="slide"
-          >
-            {/* <!-- Carousel wrapper --> */}
-            <div className="relative h-66 overflow-hidden rounded-lg md:h-96">
-              <div
-                className="hidden duration-700 ease-in-out"
-                data-carousel-item
-              >
-                <img
-                  src="images/istockphoto-1247921833-612x612.jpg"
-                  className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                  alt="..."
-                />
-              </div>
-              {/* Add more carousel items here */}
-            </div>
+          <div className="relative w-full">
+            <img className="rounded-xl"
+              alt="/"
+              src="images/istockphoto-1182088794-612x612.jpg"
+              height="500"
+              width="1000"
+            />
+
             <h2 className="text-black text-xl font-bold text-center mt-10">
               in{" "}
               <span className="text-4xl font-bold text-neutral-700">
